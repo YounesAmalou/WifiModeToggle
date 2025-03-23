@@ -1,0 +1,10 @@
+# For tray icon setup and image handling
+pystray>=0.19
+Pillow>=9.0.0
+
+# For running with elevated privileges
+elevate>=0.6.0
+
+# PyInstaller is used as a build-time dependency
+# Note: It is recommended to install pyinstaller separately when building the executable.
+# pip install pyinstaller
